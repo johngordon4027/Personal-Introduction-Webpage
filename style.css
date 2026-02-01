@@ -1,1 +1,8 @@
-
+div {
+  width: 1px;
+  height: 1px;
+  background-color: #4c675b;
+  border: 1px solid black;
+  padding: 1px;
+  margin: 1px;
+}
