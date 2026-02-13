@@ -1,8 +1,30 @@
-div {
-  width: 200px;
-  height: 100px;
-  background-color: #527450;
-  border: 1px solid black;
-  padding: 15px;
-  margin: 25px;
+/* General Body Styles */
+body {
+background-color: #2a5e5e;
+margin: 25px;
+color: #89a7b7;
+font-family: 'Quicksand', sans-serif;
+}
+
+/* Heading Styles - Removed extra commas */
+h1, h2, h3 {
+color: #2a3f56;
+font-family: 'Bungee', cursive; /* Updated 'display' to 'cursive' for standard fallback */
+}
+
+/* Box Model Practice - Used for the <div> */
+.info-box {
+width: 200px;
+height: 100px;
+background-color: #527450;
+border: 5px solid black;
+padding: 20px;
+margin: 20px;
+color: white; /* Added for readability */
+}
+
+/* Link Styles */
+a {
+color: #ffffff;
+text-decoration: underline;
 }
